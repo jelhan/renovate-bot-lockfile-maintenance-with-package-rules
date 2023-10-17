@@ -7,9 +7,12 @@
   "packageRules": [
     {
       "matchPackageNames": ["node"],
-      "extends": [
-        ":maintainLockFilesWeekly"
-      ]
+      "lockFileMaintenance": {
+        "enabled": true,
+        "extends": [
+          "schedule:weekly"
+        ]
+      }
     }
   ]
 }
