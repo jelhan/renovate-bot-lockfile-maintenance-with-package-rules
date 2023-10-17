@@ -1,0 +1,17 @@
+{
+    "name": "main/php",
+    "autoload": {
+        "psr-4": {
+            "Main\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeldrik Hanschke",
+            "email": "admin@jhanschke.de"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.71"
+    }
+}
