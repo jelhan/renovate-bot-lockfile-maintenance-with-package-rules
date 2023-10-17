@@ -6,7 +6,7 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["js"],
+      "matchManagers": ["npm"],
       "lockFileMaintenance": {
         "enabled": true,
         "extends": [
