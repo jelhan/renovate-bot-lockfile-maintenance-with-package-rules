@@ -8,13 +8,8 @@
       "matchManagers": ["npm"],
       "lockFileMaintenance": {
         "enabled": true,
-        "extends": [
-          "schedule:weekly"
-        ]
-      },
-      "extends": [
-        ":preserveSemverRanges"
-      ]
+        "schedule": ["before 4am on monday"],
+      }
     }
   ]
 }
