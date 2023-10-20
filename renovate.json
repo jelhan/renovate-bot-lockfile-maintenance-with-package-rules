@@ -3,11 +3,13 @@
   "extends": [
     "config:base"
   ],
+  "dependencyDashboardApproval": true,
   "packageRules": [
     {
       "matchManagers": ["npm"],
       "lockFileMaintenance": {
         "enabled": true,
+        "dependencyDashboardApproval": false,
         "schedule": ["before 4am on monday"]
       }
     }
